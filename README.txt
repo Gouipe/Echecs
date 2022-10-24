@@ -1,4 +1,5 @@
-Jeu d'échecs en local codé en python à l'aide de la librairie pygame. Je suis content de ce projet 
+Jeu d'échecs en local codé en python à l'aide de la librairie pygame. Je suis content de ce projet car je l'ai réalisé sans aide, si ce n'est
+sur le fonctionnement de base de la librairie pygame.
 
 -------------------------------------------------------- FONCTIONNEMENT ------------------------------------------------------------------------
 Il faut lancer le fichier main du projet. Apparait alors une fenêtre graphique représentant un échequier.
@@ -21,4 +22,6 @@ Pour utiliser ce coup, il faut cliquer sur le roi, puis sur la case d'arrivée d
 Petit et grand roques ne sont possibles que si le roi n'est attaqué ni sur la case d'origine, ni sur sa case d'arrivée après roque, et que ni le 
 roi ni la tour n'ont déjà été déplacés.
 
--Un pion passé (arrivé sur la dernière ligne) se transforme en une nouvelle pièce selon le choix du joueur.
+-Un pion passé (arrivé sur la dernière ligne) se transforme en une nouvelle pièce selon le choix du joueur. Pour ce faire, lorsq'un pion arrive
+sur la dernière ligne, une petite fenêtre contenant tous les types de pièces possibles de pièces apparait (reine, tour, fou et cavalier). Le 
+joueur doit alors choisir la pièce en laquelle le pion va se tranformer en cliquant sur la pièce voulue.
