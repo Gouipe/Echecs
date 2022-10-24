@@ -5,7 +5,8 @@ sur le fonctionnement de base de la librairie pygame.
 Il faut lancer le fichier main du projet. Apparait alors une fenêtre graphique représentant un échequier.
 Les joueurs doivent cliquer sur la pièce à bouger, la pièce sélectionnée devient alors surbrillante. Il faut ensuite cliquer sur une case
 d'arrivée valide. Si la case est valide la pièce déplacée, sinon il faut recommencer ces étapes. Les pièces blanches commencent.
-Le jeu s'arrête lorsqu'il y a échec et mat (un roi est en échec et aucun coup ne peut le sortir de l'échec).
+Le jeu s'arrête lorsqu'il y a échec et mat (un roi est en échec et aucun coup ne peut le sortir de l'échec), auquel cas le roi du joueur 
+vainqueur devient vert.
 
 --------------------------------------------------------- REGLES -------------------------------------------------------------------------------
 Les règles suivantes sont implémentées:
