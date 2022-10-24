@@ -124,6 +124,13 @@ class Graphique:
         self.afficheFondRouge(case.colonne, case.ligne)
         self.affichePiece(case)
 
+    #
+    # Affiche un fond rouge vert et la piece associée à la case (col,lig)
+    #
+    def afficheCaseVert(self, case):
+        self.afficheFondVert(case.colonne, case.ligne)
+        self.affichePiece(case)
+
     def surligne(self, case):
         self.afficheFondSurligne(case.colonne, case.ligne)
         self.affichePiece(case)
@@ -134,6 +141,13 @@ class Graphique:
     def afficheFondRouge(self, col, lig):
         square = pygame.Rect(col * SQUARE, lig * SQUARE, SQUARE, SQUARE)
         pygame.draw.rect(self.fenetre, RED_SQUARE_COLOR, square)
+
+    #
+    # Colorie la case correspondant aux arguments (col,lig) en vert
+    #
+    def afficheFondVert(self, col, lig):
+        square = pygame.Rect(col * SQUARE, lig * SQUARE, SQUARE, SQUARE)
+        pygame.draw.rect(self.fenetre, GREEN_SQUARE_COLOR, square)
 
     #
     # Colorie la case correspondant aux arguments (col,lig) en blanc

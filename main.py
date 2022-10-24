@@ -103,6 +103,8 @@ def main():
 						
 						if echiquier.echecMat(couleur):
 							#continuer = 0
+							caseRoi = echiquier.caseRoi((couleur + 1) % 2)
+							graphique.afficheCaseVert(caseRoi)
 							print("echec et mat")
 							#AFFICHER RESULTAT
 						
